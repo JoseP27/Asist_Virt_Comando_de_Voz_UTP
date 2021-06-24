@@ -1,0 +1,7 @@
+Para poder ejecutarse se necesita intalar la siguientes librerias en python:
+pip install numpy
+pip install tensorflow
+pip install tflearn
+pip install nltk
+pip install flask
+pip install jyserver

@@ -1,0 +1,47 @@
+{"preguntas":[
+    {"tag":"Pasos_Matricula_Regular",
+        "patrones":[ "matricula","pasos", "matricularme", "matriculo"],
+        "respuesta":["Puedes verificar los pasos de matrícula aquí: https://utp.ac.pa/pasos-para-la-matricula-regular-de-la-utp "]
+    },
+    {"tag": "Pago_Matricula",
+        "patrones":["matricula", "pago", "pagar"],
+        "respuesta":["Puedes infórmarte en: https://utp.ac.pa/pago-matricula"]
+    },
+    {"tag":"Proceso_retiro_inclusion",
+        "patrones":["inclusion", "retiro", "realizar", "realiza"],
+        "respuesta":["El procedimiento debe estar vigente, infórmate mas aquí: https://utp.ac.pa/retiro-inclusion-introduccion"]
+    },
+    {"tag":"Proceso_retiro_inclusion_administrativo",
+        "patrones":[ "retiro", "inclusion", "administrativo"],
+        "respuesta":["Como su nombre lo indica es una actividad administrativa, no realizada por el estudiante, el coordinador la utiliza en casos especiales extraordinarios, como por ejemplo: Cambio de estudiantes a otro grupos debido al cierre de una asignatura con baja matrícula."]
+    },
+    {"tag":"proceso_cambio_carrera",
+        "patrones":[ "cambio", "carrera","cambiar"],
+        "respuesta":["El estudiante paga en caja el formulario de cambio de datos, Llena y firma las 3 copias, busca la firma de los coordinadores involucrados, El estudiante debe dejar el formulario en secretaría para ser aprobado"]
+    },
+    {"tag":"Cambio_sede",
+        "patrones":["cambio", "sede","centro","regional", "cambiar"],
+        "respuesta":["El estudiante paga en caja el formulario de cambio de datos, Llena y firma las 3 copias, Busque la firma del coordinador de su carrera, Debe dejar el formulario en secretaría para su tramitación."]
+    },
+    {"tag":"Convalidacion_materias",
+        "patrones":["convalidacion", "materia", "materias","convalido"],
+        "respuesta":["Se solicitá en secretaría Académica de la facultad cuando se realiza el cambio de carrera, Se solicitá en secretaría general cuando el estudiante es egresado ó de otra universidad, El estudiante debe descargar el formulario en http://www.fisc.utp.ac.pa/sites/fisc.utp.ac.pa/files/documentos/2020/pdf/solicitud-de-convalidacion.pdf, Debe llenarlo y entregarlo junto a los creditos originales en secretaría académica del centro."]
+    },
+    {"tag":"Cambio_de_nota",
+        "patrones":["cambio", "nota", "notas"],
+        "respuesta":["El estudiante hace la solicitud desde el sistema de matrícula, debe primero consultarle al profesor para justicar el cambio, El estudiante paga en caja el costo del procedimiento, el estudiante debe comunicarle al profesor que inicío el proceso para que el profesor realice el cambio en el sistema"]
+    },
+    {"tag":"ingresar_grupo_investigacion",
+        "patrones":[ "investigacion", "ingresar", "pertenecer"],
+        "respuesta":["Debe realizar la solicitud al coordinador del grupo de investigación y esperar aprobación."]
+    },
+    {"tag":"beneficios_grupo_investigacion",
+        "patrones":["beneficios", "grupo", "investigacion"],
+        "respuesta":["Una formación en investigación, Oportunidades de becas y pasantías al ser miembro de un grupo de investigación aprobado, Facilidad en la obtención de recusos para proyectos de tesis, Ser parte de un grupo dinámico y activo en el centro"]
+    },
+    {"tag":"Posibilidad_de_seguir_perteneciendo",
+        "patrones":[ "grupo", "investigacion", "egresado", "graduado", "gradue","graduarme"],
+        "respuesta":["Sí, es posible pertenecer al grupo de investigación siendo egresado de la universidad"]
+    }
+]
+}

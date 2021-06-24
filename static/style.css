@@ -1,0 +1,75 @@
+
+
+body{
+    background: #649173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+.titulo{
+    text-align: center;
+
+}
+
+.animacion {
+    text-align:center;
+
+}
+
+.img{
+    padding-top: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.btm{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.preg_resp {
+    
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: beige;
+    border-radius: 16px;
+    width: 65%;
+}
+
+input {
+    border-radius: 10px;
+    border-color: green;
+    background-color: rgba(172, 255, 47, 0.397);
+    padding-bottom: 10px;
+    width: 70%;
+}
+
+.entrada-salida{
+    display: inline;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 60%;
+}
+
+.botones{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+button{
+    font-size: 30px;
+    width: 15%;
+    border-radius: 20px;
+    
+}
+
+button:hover{
+    font-size: 40px;
+    background-color: rgba(172, 255, 47, 0.788);
+    
+}
+

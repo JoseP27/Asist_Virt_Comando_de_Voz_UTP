@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""> 
+    <meta name="autor" content="custom apps">
+    <meta name="keyword" content="asistente, Sppech Recognition">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <title>Asistente</title>
+</head>
+
+<body>
+
+    <header class="titulo">
+        <h1>Asistente virtual de procedimientos universitarios</h1>
+        
+             
+    </header>
+
+    
+    <section class="animacion">
+
+
+        <img name="asistente" class="img" id="imani">
+     
+        
+        <div class="nombre">
+            <h3>Nombre del asistente</h3>
+        </div>
+    </section>
+
+    <section class="entrada-salida">
+        <div class="preg_resp">
+            <h2>Pregunta:</h2> 
+            <input type="text" id="texto_salida" >
+        </div>
+
+        <div class="preg_resp">
+            <h2>Respuesta:</h2> 
+            <input type="text" id="textosal">
+        </div>
+
+        <div class="botones">
+            <button id="grabar">Grabar</button>
+            <button id="enviar" onclick="server.consult()">Consultar</button>
+        </div>
+
+    </section>
+   
+    <script src="{{ url_for('static', filename='prog.js') }}"></script>
+
+</body>
+
+
+</html>
