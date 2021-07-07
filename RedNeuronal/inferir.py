@@ -15,10 +15,10 @@ import numpy
 
 #Iniciando stemmer de nltk para el procesamiento del texto
 stemmer = LancasterStemmer()
-nltk.download('punkt')
+
 
 #Cargando archivos necesarios para la inverenvia.
-with open('RedNeuronal/preguntas.json',encoding='utf-8') as conjunto:
+with open('RedNeuonal/preguntas.json',encoding='utf-8') as conjunto:
     datos = json.load(conjunto)
 
 with open("RedNeuronal/variable.pickle", "rb") as archivopick:
