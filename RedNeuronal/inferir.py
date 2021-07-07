@@ -1,7 +1,4 @@
-#instalar eso primero
-#pip install nltk
-#pip install tflearn
-#pip install numpy
+
 
 #Seccion de librerias
 import tensorflow
@@ -13,8 +10,6 @@ import tflearn
 import random
 import numpy
 
-#Iniciando stemmer de nltk para el procesamiento del texto
-stemmer = LancasterStemmer()
 
 
 #Cargando archivos necesarios para la inverenvia.
