@@ -6,4 +6,4 @@ pip install nltk
 pip install flask
 pip install jyserver
 
-PD: el codigo mostrado aqui, son fragmentos del codigo funcionar.
+PD: el codigo mostrado aqui, son fragmentos del codigo funcional.
