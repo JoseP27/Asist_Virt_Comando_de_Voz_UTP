@@ -1,7 +1,9 @@
-Para poder ejecutarse se necesita intalar la siguientes librerias en python:
+Dentro de las librerias utilziadas en este proyecto son:
 pip install numpy
 pip install tensorflow
 pip install tflearn
 pip install nltk
 pip install flask
 pip install jyserver
+
+PD: el codigo mostrado aqui, son fragmentos del codigo funcionar.
